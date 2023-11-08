@@ -5,8 +5,8 @@ import {FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn} from "react-icons/fa"
 const Main = () => {
   return (
     <div id="main">
-      <img className="w-full h-screen object-cover object-left fixed top-0 left-0 z-0" 
-      src="../public/sunset.jpg" 
+      <img className="w-full h-screen object-cover top-0 left-0 z-0 absolute" 
+      src="https://images.unsplash.com/photo-1474433188271-d3f339f41911?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
       alt="/"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
@@ -30,7 +30,7 @@ const Main = () => {
     />
         </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter  className="cursor-pointer" size={20}/>
+            <FaTwitter href="#" className="cursor-pointer" size={20}/>
             <FaFacebookF  className="cursor-pointer" size={20}/>
             <FaInstagram  className="cursor-pointer" size={20}/>
             <FaLinkedinIn className="cursor-pointer" size={20}/>
