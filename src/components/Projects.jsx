@@ -4,6 +4,7 @@ import Shopie from "../assets/Shopie.png"
 import ProjectItem from "./ProjectItem";
 import BookEngine from "../assets/Book Search Engine.png"
 import FridgeProject from "../assets/FridgeProject.png"
+import VballProject from "../assets/Volleyball Store.png"
 
 const Projects = () => {
   return (
@@ -22,8 +23,8 @@ const Projects = () => {
         <a href="https://github.com/MJ-AZN/Empty-Your-Fridge" target="_blank">
           <ProjectItem img={FridgeProject} title="Fridge Project"/>
         </a>
-        <a href="#" target="_blank">
-          <ProjectItem img={placeholderImg} title="placeholder"/>
+        <a href="https://github.com/briantaelee/Ecommerce_Website" target="_blank">
+          <ProjectItem img={VballProject} title="Volleyball Store"/>
         </a>
       </div>
     </div>
