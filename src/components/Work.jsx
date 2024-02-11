@@ -14,12 +14,12 @@ const data=[
     duration: "1 Year",
     details: "Created comfortable work environment by seamlessly transitioning between different sushi stations and roles, ensuring uninterrupted service during peak periods and unexpected changes. Improved quality of food by demonstrating extensive knowledge of prep work and fresh ingredients, guiding the team to consistently deliver high-quality sushi dishes. Reduced the amount of supplies wasted by 10% with accurate and thorough inventory checks. Optimized food delivery during rush hours by distributing different tasks between chefs, and concisely communicating with kitchen staff, hosts, and servers. Maintained a 4.5 star Yelp rating while also increasing revenue by 15% in 2021 and 20% in 2022"
   },
-  // {
-  //   year: 2020,
-  //   title: "Content Creator",
-  //   duration: "1 Year",
-  //   details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos esse libero, quasi eveniet voluptates excepturi aliquid quibusdam, accusamus culpa fugiat rerum obcaecati? Dignissimos sapiente vel maxime reprehenderit officiis, minima sit?"
-  // },
+  {
+    year: "2024-Current",
+    title: "Student",
+    duration: "",
+    details: "I am currently enrolled as a student at Irvine City College, and am taking classes that are specifically tailored towards Computer Science. Although I have not started my classes yet, I am excited and driven to immerse myself in the coursework and engaging projects. My goal is to fully understand the fundamentals all while maintaining a good GPA, which will help me eventually transfer into a college for a Bacholers Degree.",
+  }
 ]
 
 const Work = () => {
